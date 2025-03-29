@@ -1,0 +1,21 @@
+{
+  "videoNames": [
+    "2pac-changes eXvBjCO19QY",
+    "Eminem-8mile _Yhyp-_hX2s",
+    "kendrick lamar 3wkNLqetX0M",
+    "system of a down - aerials L-iepu3EtyE",
+    "pink floyd wish you were here hjpF8ukSrvk"
+  ],
+  "influencerNames": [
+    "MrBeast",
+    "PewDiePie",
+    "Other Influencer names"
+  ],
+  "comment": "Great",
+  "parentVideoDescription": "Here should be short video descrption, which will be used diring comment generation.",
+  "parentVideoName": "Name and ID",
+  "commenterUserName": "UserName of the commenter",
+  "apiKey": "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",
+  "model": "gpt-4o-mini",
+  "videoNameAlreadyCOmmented": "name1",
+}

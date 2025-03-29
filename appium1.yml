@@ -1,0 +1,13 @@
+server:
+  port: 4723
+  session-override: true
+  use-drivers:
+    - uiautomator2
+  default-capabilities:
+    platformName: "Android"
+    appium:automationName: "UiAutomator2"
+    appium:udid: "emulator-5556"  # Your real device UDID
+    appium:deviceName: "Pixel_6_API_33"  # Your real device name
+    noReset: true
+    # appium:appPackage: "com.google.android.youtube"  # Example app
+    # appium:appActivity: "com.google.android.youtube.HomeActivity"  # Example app

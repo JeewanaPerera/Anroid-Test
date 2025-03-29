@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="YoutubeTest">
+        <parameter name="appPackage" value="com.google.android.youtube" />
+        <parameter name="appActivity" value="com.google.android.youtube.HomeActivity" />
+        <parameter name="gridUrl" value="http://localhost:4444" />
+        <parameter name="videoName" value="I Spent 100 Hours Inside The Pyramids!" />
+        <classes>
+            <class name="YouTube_Tests.YoutubeCommentVideo"/>
+        </classes>
+    </test>
+</suite>
